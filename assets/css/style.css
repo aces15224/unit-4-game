@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/crystal2.jpg") ;
+    background-size:cover;
+        margin: 0px;
+}
+
+#page-container{
+   
+   width:auto;
+   max-width: 960px;
+   background-color:white;
+   height: auto;
+   overflow:hidden;
+}
+#jumboTitle{
+    width: 100%;    
+    height: 100px;
+    border: solid purple;
+    border-width:0 2px 2px 2px;
+    border-radius: 0 0 10px 10px;
+    background-color: purple;   
+}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom:10px;
+    
+}
+#title{
+    width: auto;
+
+    margin-top: 0px;
+    /* margin-bottom: px;  */
+    position: relative;
+    top: -30px;
+   
+    padding: 0.5px;
+    /* font-family: 'Notable', sans-serif; */
+    font-family: 'Cinzel', serif;
+    font-size:4.5em;
+    font-weight:bold;
+    text-align: center;
+    color: white;    
+}
+
+#instructions{
+    text-align:center;
+    color:white;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color:purple;
+    border-radius: 25px 25px 0 0; 
+    font-size: 1.8em;
+    font-weight:bold; 
+    margin-top: 0px; 
+}
+
+    
+#directions{
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 0px;
+   
+}
+
+p{
+    font-size: 1em;
+    font-weight: bold;
+    padding:5px 30px 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scoreboard{
+     color:white;
+    padding: 10px;
+    margin: 0px;
+    background-color:purple;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.5em;
+    font-weight:bold; 
+    display:block; 
+    width: 100%;
+    text-align:center;
+     
+}
+
+img{
+    height: 100px;
+    width:  85px;
+    position: relative;
+    margin: 13px;
+    
+}
+
+
+#yourScore, #targetScore, #winCount, #lossCount{
+    font-size: 5em;
+    /* width:100%; */
+    margin-top:0px;
+    margin-bottom: 10px;
+    padding-top:0px;
+    text-align: center;
+    background-color: red;
+    
+}
+/* .scoreBoard1{
+    color:white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:blue;
+    border-radius: 10px 0 0 0px;
+    font-size: 1.8em;
+    font-weight:bold; 
+    display:block;
+    width: 28%;
+    text-align:center;
+    clear: left;
+}
+.scoreBoard2{
+    color:white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:blue;
+    border-radius: 0 0 0 10px;
+    font-size: 1.8em;
+    font-weight:bold; 
+    display:block;
+    width: 28%;
+    text-align:center;
+    clear: left;
+}
+
+
+#win-count{
+    margin-top: 15px;
+    border-radius: 10px 10px 0 0;
+}
+#win-count, #loss-count{
+    float:left;
+    width: 100%;
+    background-color:white;
+    /* border-radius: 10px 10px 10px 10px; */
+/* }
+#loss-count{
+    border-radius: 0 0 10px 10px;
+} */ 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Notable&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container" id="page-container">
+    <div class="jumbotron container" id="jumboTitle">
+        <div class="container" >
+          <h1 id="title">Crystal Collector</h1>
+       </div>
+    </div>
+    <div class="row" >
+        <div class="column-lg-12">
+            <div class="panel panel-default" >
+                <div class="panel-body">
+                    <h2 id="instructions">Instructions</h2>
+                    <p >You will be given a random number at the start of the game. There are four crystals below.  By clicking on a crystal you
+                        will add a specific amount of points to your total score.  The value of each crystal is hidden from you until you click on 
+                        it. Each time when the game starts, the game will change the values of each crystal.</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="panel panel-default">
+                <h3 class="scoreboard">Target Score</h3>
+                    <div class="panel-body" id="targetScore">
+                        107
+                   </div>
+
+        </div>
+        </div>
+        <div class="col-lg-3">
+                <div class="panel panel-default">
+                    <h3 class="scoreboard">Your Score</h3>
+                        <div class="panel-body" id="yourScore">
+                            119
+                            
+                        </div>
+    
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="panel panel-default">
+                        <h3 class="scoreboard">Pick a Crystal</h3>
+                        <div class="panel-body">
+                                <img src="assets/images/crystalOne.jpg" id="one">
+                                <img src="assets/images/crystalTwo.jpg" id="two">
+                                <img src="assets/images/crystalThree.jpg" id="three">
+                                <img src="assets/images/crystalFour.jpg"id="four">
+                        </div>
+    
+                </div>
+            </div>
+            
+    </div>
+    <div class="row">
+            <div class="col-lg-6">
+                    <div class="panel panel-default">
+                            <h3 class="scoreboard">Wins</h3>
+                            <div class="panel-body" id="winCount">
+                                1
+                            </div>
+                    </div> 
+            </div>
+            <div class="col-lg-6">
+                    <div class="panel panel-default">
+                            <h3 class="scoreboard">Losses</h3>
+                            <div class="panel-body" id="lossCount">
+                                1
+                            </div>
+                    </div> 
+            </div>
+    </div>
+
+    
+    
+</div>
+
+   
+</body>
+<script src="/assets/javascript/game.js"
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html> 
+<!-- <div class="container-fluid">
+    <div class="row">
+        <div class="column-lg-3" id="targetnumber">
+                <h3 class="scoreBoard">Target Score</h3>
+                <div id="targetNumber">120</div>
+        </div>
+        
+        <div class="column-lg-3" id="current-score">
+                <h3 class="scoreBoard">Your Score</h3>
+                <div id="yourScore" >120</div>
+            
+        </div>
+        <div class="column-lg-6" >
+            <div id="crystals">
+                <h3 class="scoreBoard">Choose a Crystal</h3>
+                <img src="assets/images/crystalOne.jpg">
+                <img src="assets/images/crystalTwo.jpg">
+                <img src="assets/images/crystalThree.jpg">
+                <img src="assets/images/crystalFour.jpg">
+                    </div>   
+        </div>
+    </div>
+    </div>
+    <div class="row" >
+        <div class="column-lg-6">
+                <div class="totalScore">
+                        <div id="win-count">
+                            <h3 class="scoreBoard1">Wins</h3>
+                        </div>
+                    </div> 
+        </div>
+    </div>
+        <div class="column-lg-6">
+            <div class="totalScore">
+            <div id="loss-count">
+                                    <h3 class="scoreBoard2">Losses</h3>
+                                  </div>  
+                          </div>  
+
+            </div>
